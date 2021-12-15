@@ -64,6 +64,9 @@
       <entry value="19" name="MAV_AUTOPILOT_AIRRAILS">
         <description>AirRails - http://uaventure.com</description>
       </entry>
+      <entry value="20" name="MAV_AUTOPILOT_REFLEX">
+        <description>Fusion Reflex - https://fusion.engineering</description>
+      </entry>
     </enum>
     <enum name="MAV_TYPE">
       <description>MAVLINK component type reported in HEARTBEAT message. Flight controllers must report the type of the vehicle on which they are mounted (e.g. MAV_TYPE_OCTOROTOR). All other components must report a value appropriate for their type (e.g. a camera must use MAV_TYPE_CAMERA).</description>
@@ -181,6 +184,18 @@
       </entry>
       <entry value="37" name="MAV_TYPE_PARACHUTE">
         <description>Parachute</description>
+      </entry>
+      <entry value="38" name="MAV_TYPE_LOG">
+        <description>Log</description>
+      </entry>
+      <entry value="39" name="MAV_TYPE_OSD">
+        <description>OSD</description>
+      </entry>
+      <entry value="40" name="MAV_TYPE_IMU">
+        <description>IMU</description>
+      </entry>
+      <entry value="41" name="MAV_TYPE_GPS">
+        <description>GPS</description>
       </entry>
     </enum>
     <enum name="MAV_MODE_FLAG" bitmask="true">
